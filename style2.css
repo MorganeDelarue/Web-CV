@@ -1,0 +1,42 @@
+section{
+    padding-top: 5%;
+}
+
+.picture {
+    width: 500px;
+    height: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3, .school-link{
+    font-style: italic;
+}
+
+h2, h3, h4, ul{
+    padding-bottom: 2%;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10%;
+    gap: 1em;
+}
+
+.one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.three{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.school-link{
+    color: white;
+}
