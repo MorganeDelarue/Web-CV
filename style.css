@@ -1,9 +1,56 @@
-body{font-family:segoe UI,sans-serif;margin:auto;color:#2a2b6e}
-.text-align-right{text-align:right;}
-.menu{display:inline;list-style:none;}
-.bt{color:#2a2b6e;padding:15px;text-decoration:none;font-variant:small-caps;font-size:20px;}
-.title{background-color:#771d2d;color:#fff;}
-img{float:left;padding:40px;}
-h3{color:#771d2d}
-div{width:50%;margin:auto;}
-header{padding:25px;}
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1f2039;
+    font-family: 'Montserrat', sans-serif;
+    color: white;  
+}
+
+header, footer{
+    background-color: white /* #E6E6FA*/;
+    color: #370462;
+    padding: 10px;
+}
+
+footer{
+    padding: 3%;
+}
+
+main{
+    padding: 5% 20%;
+}
+
+h1{
+    color: #e6e6fa;
+}
+
+.logo{
+    border-radius: 45% 45% 45% 45% / 30% 30% 30% 30% 
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Tenor Sans', sans-serif;
+    padding-left: 20px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active{
+    color: #1f2039;
+}
+
+.title{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+nav, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

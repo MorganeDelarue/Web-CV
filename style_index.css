@@ -1,0 +1,43 @@
+
+
+.portrait{
+    border-radius: 50%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.portrait{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.intro{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding-top: 1%;
+}
+
+address{
+    font-style: normal;
+    padding: none;
+}
+
+li{
+    padding-bottom: 3%;
+    list-style: none;
+}
